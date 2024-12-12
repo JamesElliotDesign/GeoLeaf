@@ -24,6 +24,7 @@ const products: ProductType[] = [
       { name: "BridgIT", url: "https://www.bridgitwater.org" },
       { name: "Interlink", url: "https://www.interlinkalliance.net/" },
       { name: "MasterKey", url: "https://masterkey.finance" },
+      { name: "Merchandise", url: "https://www.prevailshop.com/collections/geoleaf-token-merchandise" },
     ],
   },
 ];
@@ -59,7 +60,9 @@ const footer = () => {
               digital assets and community engagement. From token trading to
               exclusive NFTs, we offer innovative ways to invest, collect, and
               grow within a vibrant ecosystem. Join us as we continue to expand
-              and redefine the future of digital ownership.
+              and redefine the future of digital ownership. This investment carries 
+              a high level of risk, and it is essential to understand that investors 
+              may not be fully protected in the event of an adverse outcome.
             </h3>
             <div className="flex gap-4">
               {socialLinks.map((items, i) => (

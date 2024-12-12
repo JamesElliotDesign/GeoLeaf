@@ -11,7 +11,6 @@ interface Data {
 const data: Data[] = [
     { imgSrc: "/images/Companies/bridit.png" },
     { imgSrc: "/images/Companies/previal.png" },
-    { imgSrc: "/images/Companies/startit.png" },
     { imgSrc: "/images/Companies/masterkey.png" },
     { imgSrc: "/images/Companies/interlink.png" },
 ]

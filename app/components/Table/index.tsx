@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const Roadmap = () => {
     const roadmapData = [
-        { quarter: "Quarter 1", description: "Launch the GeoLeaf v2 token along with our fully revamped website." },
-        { quarter: "Quarter 2", description: "Unveil the new GeoLeaf dApp and initiate our NFT staking pool." },
-        { quarter: "Quarter 3", description: "Expand our reach with targeted marketing and onboard additional NFT projects seeking staking solutions." },
-        { quarter: "Quarter 4", description: "Enhance and scale the GeoLeaf dApp with new features, supported by strategic marketing efforts." },
+        { quarter: "Quarter 1 2025", description: "Launch the GeoLeaf v2 token along with our fully revamped website." },
+        { quarter: "Quarter 2 2025", description: "Unveil the new GeoLeaf dApp and initiate our NFT staking pool." },
+        { quarter: "Quarter 3 2025", description: "Expand our reach with targeted marketing and onboard additional NFT projects seeking staking solutions." },
+        { quarter: "Quarter 4 2025", description: "Enhance and scale the GeoLeaf dApp with new features, supported by strategic marketing efforts." },
     ];
 
     return (

@@ -1,5 +1,5 @@
-"use client"
-import { motion } from 'framer-motion';
+"use client";
+import { motion } from "framer-motion";
 
 const Simple = () => {
     return (
@@ -10,7 +10,7 @@ const Simple = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.2 }}
                 viewport={{ once: true }}
-                className="wizard-container"
+                className="wizard-container hidden sm:block"
                 style={{ top: "1%", left: "20%" }}
             >
                 <div className="wizardtwo"></div>
@@ -21,7 +21,7 @@ const Simple = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.3 }}
                 viewport={{ once: true }}
-                className="wizard-container"
+                className="wizard-container hidden sm:block"
                 style={{ top: "1%", left: "5%" }}
             >
                 <div className="wizardone"></div>
@@ -68,7 +68,7 @@ const Simple = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.2 }}
                 viewport={{ once: true }}
-                className="wizard-container"
+                className="wizard-container hidden sm:block"
                 style={{ top: "1%", left: "60%" }}
             >
                 <div className="wizardthree"></div>
@@ -79,13 +79,13 @@ const Simple = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1.3 }}
                 viewport={{ once: true }}
-                className="wizard-container"
+                className="wizard-container hidden sm:block"
                 style={{ top: "1%", left: "75%" }}
             >
                 <div className="wizardfour"></div>
             </motion.div>
         </div>
-    )
-}
+    );
+};
 
 export default Simple;

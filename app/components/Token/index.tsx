@@ -111,11 +111,11 @@ const Token = () => {
                         className="bg-navyblue p-8 rounded-lg shadow-md"
                     >
                         <h5 className="text-white text-xl font-bold mb-2">Development</h5>
-                        <p className="text-lg gradient-text font-semibold">2%</p>
+                        <p className="text-lg gradient-text font-semibold">1%</p>
                         <div className="relative w-full h-4 bg-darkblue rounded-full mt-2">
                             <motion.div 
                                 initial={{ width: 0 }}
-                                whileInView={{ width: '2%' }}
+                                whileInView={{ width: '1%' }}
                                 transition={{ duration: 1.5 }}
                                 viewport={{ once: true }}
                                 className="absolute left-0 top-0 h-4 rounded-full"

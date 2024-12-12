@@ -66,7 +66,7 @@ const History = () => {
                     onViewportEnter={() => setStartCountWells(true)}
                 >
                     <div className="impact-number w-24 h-24 rounded-full flex items-center justify-center text-white font-bold text-2xl">
-                        {useCountUp(5, 2, startCountWells)}
+                        {useCountUp(4, 1, startCountWells)}
                     </div>
                     <p className="text-bluish mt-4">Water wells refurbished</p>
                 </motion.div>
