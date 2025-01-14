@@ -21,6 +21,7 @@ const products: ProductType[] = [
     section: "Useful Links",
     link: [
       { name: "Docs", url: "https://geoleaf.gitbook.io/geoleaf" },
+      { name: "Prevail Swap", url: "https://prevailtoken.com/" },
       { name: "BridgIT", url: "https://www.bridgitwater.org" },
       { name: "Interlink", url: "https://www.interlinkalliance.net/" },
       { name: "MasterKey", url: "https://masterkey.finance" },

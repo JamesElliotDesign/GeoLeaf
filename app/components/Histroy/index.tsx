@@ -1,6 +1,6 @@
-"use client"
-import { motion } from 'framer-motion';
-import React, { useState, useEffect } from 'react';
+"use client";
+import { motion } from "framer-motion";
+import React, { useState, useEffect } from "react";
 
 // Hook to count up when triggered
 const useCountUp = (end: number, duration = 2, startCount: boolean) => {
@@ -114,59 +114,50 @@ const History = () => {
             </motion.h4>
 
             {/* Video Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                 {/* Video 1 */}
                 <motion.div
-                    className="w-full h-80 md:h-96"
+                    className="w-full h-96 md:h-35"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7 }}
                     viewport={{ once: true }}
                 >
-                    <iframe
-                        src="https://www.youtube.com/embed/3uuhJtWBpPM"
-                        title="Video 1"
+                    <video
+                        src="/videos/video3.mp4"
+                        controls
                         className="w-full h-full rounded-lg shadow-md"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
+                    ></video>
                 </motion.div>
 
                 {/* Video 2 */}
                 <motion.div
-                    className="w-full h-80 md:h-96"
+                    className="w-full h-96 md:h-35"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.2 }}
                     viewport={{ once: true }}
                 >
-                    <iframe
-                        src="https://www.youtube.com/embed/LrEEG6kj5GQ"
-                        title="Video 2"
+                    <video
+                        src="/videos/video4.mp4"
+                        controls
                         className="w-full h-full rounded-lg shadow-md"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
+                    ></video>
                 </motion.div>
 
                 {/* Video 3 */}
                 <motion.div
-                    className="w-full h-80 md:h-96"
+                    className="w-full h-96 md:h-35"
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.7, delay: 0.4 }}
                     viewport={{ once: true }}
                 >
-                    <iframe
-                        src="https://www.youtube.com/embed/b_1deRoN2YE"
-                        title="Video 3"
+                    <video
+                        src="/videos/video5.mp4"
+                        controls
                         className="w-full h-full rounded-lg shadow-md"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
+                    ></video>
                 </motion.div>
             </div>
         </div>
